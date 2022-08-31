@@ -20,48 +20,46 @@
   </head>
   <body class="page">
     <header class="header">
-      <section class="header-section">
-        <div class="container-header">
-          <div class="logo">
-            <a class="logo-link" href=""
-              >Web<span class="logo-span">Studio</span>
-            </a>
-          </div>
-
-          <nav class="header-nav">
-            <ul class="nav-list">
-              <li>
-                <a
-                  class="link-active"
-                  href="https://yuriykirillov.github.io/goit-markup-hw-03/index.html"
-                  >Студія</a
-                >
-              </li>
-              <li>
-                <a
-                  class="link"
-                  href="https://yuriykirillov.github.io/goit-markup-hw-03/portfolio.html"
-                  >Портфоліо</a
-                >
-              </li>
-              <li><a class="link" href="Контакти">Контакти</a></li>
-            </ul>
-          </nav>
-
-          <ul class="link-list">
-            <li>
-              <a class="header-list-item" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="header-list-item" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
+      <div class="container container-header">
+        <div class="logo">
+          <a class="logo-link" href=""
+            >Web<span class="logo-span">Studio</span>
+          </a>
         </div>
-      </section>
+
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li>
+              <a
+                class="link-active"
+                href="https://yuriykirillov.github.io/goit-markup-hw-03/index.html"
+                >Студія</a
+              >
+            </li>
+            <li>
+              <a
+                class="link"
+                href="https://yuriykirillov.github.io/goit-markup-hw-03/portfolio.html"
+                >Портфоліо</a
+              >
+            </li>
+            <li><a class="link" href="Контакти">Контакти</a></li>
+          </ul>
+        </nav>
+
+        <ul class="link-list">
+          <li>
+            <a class="header-list-item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="header-list-item" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main>
@@ -76,8 +74,8 @@
       </section>
 
       <!--Advantage-->
-      <section class="main-list section">
-        <div class="container-advantage">
+      <section class="section">
+        <div class="container container-advantage">
           <h2 class="visually-hidden">Наши переваги</h2>
           <ul class="list-main">
             <li>
@@ -112,10 +110,10 @@
       </section>
 
       <!--Opportunity-->
-      <section class="section-opport">
+      <section class="section section-opportunity">
         <div class="container">
-          <h2 class="main-section-opport">Чим ми займаємося</h2>
-          <ul class="list-opport">
+          <h2 class="main-section-opportunity">Чим ми займаємося</h2>
+          <ul class="list-opportunity">
             <li>
               <img
                 src="images/box-1.jpg"
@@ -145,8 +143,8 @@
       </section>
 
       <!--Our team-->
-      <section class="section-team">
-        <div class="container-team">
+      <section class="section section-team">
+        <div class="container">
           <h2 class="main-section-team">Наша команда</h2>
           <ul class="list-team">
             <li class="team-color">
@@ -156,8 +154,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="list-item-team">Ігор Дем'яненко</h3>
-              <p class="list-text-team">Product Designer</p>
+              <div class="item-team">
+                <h3 class="list-item-team">Ігор Дем'яненко</h3>
+                <p class="list-text-team">Product Designer</p>
+              </div>
             </li>
             <li class="team-color">
               <img
@@ -166,8 +166,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="list-item-team">Ольга Рєпіна</h3>
-              <p class="list-text-team">Frontend Developer</p>
+              <div class="item-team">
+                <h3 class="list-item-team">Ольга Рєпіна</h3>
+                <p class="list-text-team">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-color">
               <img
@@ -176,8 +178,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="list-item-team">Микола Тарасов</h3>
-              <p class="list-text-team">Marketing</p>
+              <div class="item-team">
+                <h3 class="list-item-team">Микола Тарасов</h3>
+                <p class="list-text-team">Marketing</p>
+              </div>
             </li>
             <li class="team-color">
               <img
@@ -186,36 +190,38 @@
                 width="270"
                 height="260"
               />
-              <h3 class="list-item-team">Михайло Єрмаков</h3>
-              <p class="list-text-team">UI Designer</p>
+              <div class="item-team">
+                <h3 class="list-item-team">Михайло Єрмаков</h3>
+                <p class="list-text-team">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <footer>
-      <section class="footer-section">
+    <footer class="footer-section">
+      
         <div class="container-footer">
           <div class="logo-footer">
             <a class="logo-link-footer" href=""
-            >Web<span class="logo-span-footer">Studio</span>
-          </a>
+              >Web<span class="logo-span-footer">Studio</span>
+            </a>
           </div>
-          
+  
           <address>
             <ul class="list-footer">
-              <li lang="uk">
+              <li lang="uk" class="footer">
                 <a class="address-footer" href=""
                   >бул. Леси Украинки, 26, Киев, 02000</a
                 >
               </li>
-              <li>
+              <li class="footer">
                 <a class="link-footer" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li>
+              <li class="footer">
                 <a class="link-footer" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
@@ -223,7 +229,7 @@
             </ul>
           </address>
         </div>
-      </section>
+             
     </footer>
   </body>
 </html>
